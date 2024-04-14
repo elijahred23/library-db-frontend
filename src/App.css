@@ -1,0 +1,30 @@
+/* App.css */
+.App {
+  /* Add some general styles for your app if needed */
+}
+
+.appBar {
+  background-color: #2196f3; /* Material UI blue */
+  color: white; /* Text color for the app bar */
+}
+
+.toolbar {
+  display: flex; /* Ensure items are arranged horizontally */
+  justify-content: space-between; /* Space items evenly */
+  padding: 8px; /* Add some padding */
+}
+
+.link {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color from app bar */
+  margin-right: 16px; /* Add some margin between links */
+  font-weight: bold; /* Make links bolder */
+}
+
+.link:hover {
+  color: #e0e0e0; /* Change link color on hover */
+}
+
+.title {
+  flex-grow: 1; /* Make the title flexible and grow to fill space */
+}
